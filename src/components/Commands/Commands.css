@@ -1,0 +1,19 @@
+.commandscontainer {
+  opacity: 0;
+  width: 80%;
+  height: 85vh;
+  margin: auto;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.commandscontainer ul {
+  list-style: none;
+}
+
+.commandscontainer h1 {
+  margin-bottom: 20px;
+}

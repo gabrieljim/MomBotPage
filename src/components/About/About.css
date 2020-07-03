@@ -1,0 +1,34 @@
+.info {
+  width: 80%;
+  margin: auto;
+  line-height: 33px;
+  margin-bottom: 10px;
+}
+
+.info p {
+  font-size: 22px;
+}
+
+.about h1 {
+  margin-bottom: 20px;
+}
+
+.carousel {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel * {
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 438px) {
+  .info p {
+    text-align: justify;
+  }
+
+  .info h1 {
+    line-height: 40px;
+  }
+}

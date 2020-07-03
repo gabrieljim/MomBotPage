@@ -1,0 +1,621 @@
+[
+    [
+      "daily",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "economy",
+          "name": "daily",
+          "description": "The `daily` command gives you a daily treat bonus.",
+          "usage": "daily"
+        }
+      }
+    ],
+    [
+      "slots",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "economy",
+          "name": "slots",
+          "aliases": [
+            "casino",
+            "slotmachine",
+            "sm"
+          ],
+          "description": "A slots machine to spin on and bet your treats!",
+          "usage": "slots <amount to bet>"
+        }
+      }
+    ],
+    [
+      "transfer",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "economy",
+          "aliases": [
+            "gift",
+            "give",
+            "pay"
+          ],
+          "name": "transfer",
+          "description": "The `transfer` command allows you to give some of your treats to another user.",
+          "usage": "transfer <amount to transfer> <mention user>"
+        }
+      }
+    ],
+    [
+      "treats",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "economy",
+          "name": "treats",
+          "aliases": [
+            "treats",
+            "points",
+            "money",
+            "wallet",
+            "bal"
+          ],
+          "description": "The `treats` command displays a users treats, yabe's premium currency!",
+          "usage": "treats <optional mention to get another users treats balance>"
+        }
+      }
+    ],
+    [
+      "work",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "economy",
+          "name": "work",
+          "aliases": [
+            "write",
+            "journalism",
+            "job"
+          ],
+          "description": "The `work` command allows you to work for some treats!",
+          "usage": "work"
+        }
+      }
+    ],
+    [
+      "8ball",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "fun",
+          "name": "8ball",
+          "description": "Gives a totally ~~random~~ calculated answer to your question",
+          "usage": "8ball <question or whatever you want really>"
+        }
+      }
+    ],
+    [
+      "roll",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "fun",
+          "name": "roll",
+          "description": "The `roll` command rolls a specified number of die with a specified number of sides.",
+          "usage": "roll <number of die> <sides per die>"
+        }
+      }
+    ],
+    [
+      "owofy",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "fun",
+          "name": "owofy",
+          "description": "The `owofy` command takes text and owofies it! Just try it out and you'll get the gist of it.",
+          "usage": "owofy <text to put through the owofication process>"
+        }
+      }
+    ],
+    [
+      "channel",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "info",
+          "name": "channel",
+          "description": "The `channel` command gives information about the current channel.",
+          "usage": "channel"
+        }
+      }
+    ],
+    [
+      "roles",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "info",
+          "name": "roles",
+          "description": "The `roles` command displays all roles below the `Mom` role.",
+          "usage": "roles"
+        }
+      }
+    ],
+    [
+      "uptime",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "info",
+          "name": "uptime",
+          "description": "Allows you to view how long mom has been running.",
+          "usage": "uptime"
+        }
+      }
+    ],
+    [
+      "whois",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "info",
+          "name": "whois",
+          "description": "The `whois` command displays a list of all people with a requested role.",
+          "usage": "whois <name of role>"
+        }
+      }
+    ],
+    [
+      "eval",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": true,
+          "type": "mod",
+          "name": "eval",
+          "description": "Evaluates javascript code",
+          "usage": "eval <code to be evaled>"
+        }
+      }
+    ],
+    [
+      "ban",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "mod",
+          "name": "ban",
+          "description": "The `ban` command requires `Ban Members` permission. It allows you to ban a specified user.",
+          "usage": "ban <@user>"
+        }
+      }
+    ],
+    [
+      "kick",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "mod",
+          "name": "kick",
+          "description": "The `kick` command requires `Kick Members` permission. It allows you to kick a specified user.",
+          "usage": "kick <@user> <reason>(optional)"
+        }
+      }
+    ],
+    [
+      "reload",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": true,
+          "type": "mod",
+          "name": "reload",
+          "description": "reloads commands",
+          "usage": "reload <command name>"
+        }
+      }
+    ],
+    [
+      "rem",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "mod",
+          "name": "rem",
+          "aliases": [
+            "del",
+            "delete",
+            "rm"
+          ],
+          "description": "The `rem` command require the `Manage Messages` permission. It removes a given amount of message, to clean up chats.",
+          "usage": "rem <amount of messages to be removed>"
+        }
+      }
+    ],
+    [
+      "snipe",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": true,
+          "type": "mod",
+          "name": "snipe",
+          "description": "[CENSORED]",
+          "usage": "setPremium"
+        }
+      }
+    ],
+    [
+      "bassboost",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "music",
+          "name": "bassboost",
+          "aliases": [
+            "bb",
+            "bass"
+          ],
+          "description": "The `bassboost` command allows you to bassboost the current song",
+          "usage": "bassboost <optional:low/medium(default)/high>"
+        }
+      }
+    ],
+    [
+      "earrape",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "music",
+          "name": "earrape",
+          "aliases": [
+            "er"
+          ],
+          "description": "The `earrape` command does just that, earrapes you on the current song",
+          "usage": "earrape"
+        }
+      }
+    ],
+    [
+      "leave",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "music",
+          "name": "leave",
+          "aliases": [
+            "dc",
+            "gtfo",
+            "stop"
+          ],
+          "description": "The `leave` command makes mom leave the current guilds vc",
+          "usage": "prefix <new prefix>"
+        }
+      }
+    ],
+    [
+      "loop",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "music",
+          "name": "loop",
+          "aliases": [
+            "l",
+            "repeat"
+          ],
+          "description": "The `loop` command allows you to loop the current queue",
+          "usage": "loop"
+        }
+      }
+    ],
+    [
+      "lyrics",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "music",
+          "name": "lyrics",
+          "description": "The `lyrics` command allows you to view lyrics for the currently playing song if any lyrics are available",
+          "usage": "lyrics"
+        }
+      }
+    ],
+    [
+      "normal",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "music",
+          "name": "normal",
+          "aliases": [
+            "fixvol",
+            "norm"
+          ],
+          "description": "The `normal` command reverts all sound settings to the default for the current playing track.",
+          "usage": "normal"
+        }
+      }
+    ],
+    [
+      "nowplaying",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "music",
+          "name": "nowplaying",
+          "aliases": [
+            "np",
+            "playing"
+          ],
+          "description": "The `nowplaying` command allows you to see the currently playing song",
+          "usage": "nowplaying"
+        }
+      }
+    ],
+    [
+      "play",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "music",
+          "name": "play",
+          "aliases": [
+            "p"
+          ],
+          "description": "The `play` command allows you to play a song to add to the queue",
+          "usage": "play <song/playlist(WIP)>"
+        }
+      }
+    ],
+    [
+      "queue",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "music",
+          "name": "queue",
+          "aliases": [
+            "q"
+          ],
+          "description": "The `queue` command allows you to view the current queue of music",
+          "usage": "queue"
+        }
+      }
+    ],
+    [
+      "remove",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "music",
+          "name": "remove",
+          "description": "The `remove` command allows you to remove certain songs in the queue",
+          "usage": "remove <position in queue to remove>"
+        }
+      }
+    ],
+    [
+      "removedupes",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "music",
+          "name": "removedupes",
+          "aliases": [
+            "rd",
+            "unique"
+          ],
+          "description": "The `removedupes` command allows you to remove all duplicate songs from the queue",
+          "usage": "removedupes"
+        }
+      }
+    ],
+    [
+      "removerange",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "music",
+          "name": "removerange",
+          "aliases": [
+            "rmr"
+          ],
+          "description": "The `removerange` command allows you to remove a range of songs from the queue",
+          "usage": "removerange <starting range> <endingrange(optional)/defaults to end of queue>"
+        }
+      }
+    ],
+    [
+      "search",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "music",
+          "name": "search",
+          "description": "The `search` command allows you to search songs and then choose which you want to play/add to queue",
+          "usage": "search <what to search for>"
+        }
+      }
+    ],
+    [
+      "shuffle",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "music",
+          "name": "shuffle",
+          "aliases": [
+            "mix"
+          ],
+          "description": "The `shuffle` command allows you to shuffle the current queue",
+          "usage": "shuffle"
+        }
+      }
+    ],
+    [
+      "skip",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "music",
+          "name": "skip",
+          "aliases": [
+            "next",
+            ">",
+            ">>"
+          ],
+          "description": "The `skip` command allows you to skip songs, once three or more people are in the voice channel, will be decided by vote.",
+          "usage": "skip"
+        }
+      }
+    ],
+    [
+      "volume",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "music",
+          "name": "volume",
+          "aliases": [
+            "v",
+            "vol"
+          ],
+          "description": "The `volume` command allows you to change the volume of mom's music. `NOTE: Requires mom premium`\nPlease be aware that changing the stream volume will lower the quality of the music due to encoding rules",
+          "usage": "volume <amount(1-100)>"
+        }
+      }
+    ],
+    [
+      "prefix",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "settings",
+          "name": "prefix",
+          "description": "The `prefix` command changes your guild's prefix to pretty much anything.",
+          "usage": "prefix <new prefix>"
+        }
+      }
+    ],
+    [
+      "welcome",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "settings",
+          "name": "welcome",
+          "description": "The `welcome` command allows you to set a custom message. Use `{{}}` in your message to mention the user on join, and to put channels in your message, put the id of the channel in double brackets, `[[channel id here]]`\nExample: 'Welcome {{}}, please read [[6549519484921321]]. We love you :)'",
+          "usage": "welcome <enable/disable> <mention welcome channel> <message to welcome new users>"
+        }
+      }
+    ],
+    [
+      "addrole",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "util",
+          "name": "addrole",
+          "description": "Allows mom to give you the provided role",
+          "usage": "addrole <role's name>"
+        }
+      }
+    ],
+    [
+      "help",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "util",
+          "name": "help",
+          "aliases": [
+            "halp",
+            "commands",
+            "cmds",
+            "h"
+          ],
+          "description": "The `help` command displays a help menu, which contains a list of commands and a way to find further help.",
+          "usage": "help"
+        }
+      }
+    ],
+    [
+      "invite",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "util",
+          "name": "invite",
+          "description": "The `invite` command sends an instant invite for mom straight to your own server(s).",
+          "usage": "invite"
+        }
+      }
+    ],
+    [
+      "ping",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "util",
+          "name": "ping",
+          "description": "The `ping` command returns the client's ping to the Discord API and the users ping to the client's host server.",
+          "usage": "ping"
+        }
+      }
+    ],
+    [
+      "remind",
+      {
+        "help": {
+          "enabled": true,
+          "hideHelp": false,
+          "type": "util",
+          "name": "remind",
+          "aliases": [
+            "reminders",
+            "reminder"
+          ],
+          "description": "The `remind` command allows you to set, remove, and view reminders!\n\nPLEASE NOTE, YOU MUST ALLOW DM'S FROM THE GUILD YOU SET THE REMINDER IN TO GET THE REMINDER!\n\nCommand parses time as such, a number before a letter denotes an amount of time, for examples, `5d` is parsed as 5 days. So a valid input would be `mom remind 5d:5h:30m fix my pc` which translates to 'In five days, 5 hours, and 30 minutes, remind me to fix my pc!'\n\nRun `mom remind example` for all rules!",
+          "usage": "remind  <<time><todo>/list/remove/delete/example>"
+        }
+      }
+    ]
+  ]

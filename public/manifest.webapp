@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "name": "Meme Generator",
+  "description": "Fun app to generate memes!",
+  "subtitle": "Meme maker",
+  "type": "web",
+  "fullscreen": "true",
+  "categories": [
+    "entertainment"
+  ],
+  "launch_path": "/index.html",
+  "icons": {
+    "56": "/icons/icon56x56.png",
+    "112": "/icons/icon112x112.png"
+  },
+  "theme_color": "#01B8C1",
+  "default_locale": "en-US"
+}
+
