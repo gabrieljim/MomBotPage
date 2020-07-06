@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./List.css";
+import "./styles.js";
 import Command from "./Command";
 
 const List = props => {

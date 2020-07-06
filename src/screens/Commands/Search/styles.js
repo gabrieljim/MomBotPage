@@ -1,3 +1,4 @@
+/*
 #searchbar {
   background-color: var(--background-color);
   border: none;
@@ -41,3 +42,4 @@
     font-size: 15px;
   }
 }
+*/

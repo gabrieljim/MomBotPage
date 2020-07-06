@@ -1,5 +1,5 @@
 import React from "react";
-import "./Tags.css";
+import "./styles.css";
 
 const Tags = props => {
   let tags = ["economy", "fun", "info", "mod", "music", "settings", "util"];

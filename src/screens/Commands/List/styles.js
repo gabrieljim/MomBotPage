@@ -1,3 +1,4 @@
+/*
 .command {
   cursor: pointer;
   border: 3px solid var(--nav-color);
@@ -51,3 +52,4 @@ pre {
     width: 100%;
   }
 }
+*/
