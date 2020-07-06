@@ -2,11 +2,12 @@ import React from "react";
 import "./styles.css";
 import * as SC from "./styles";
 
+
+/*
 function importAll(r) {
 	return r.keys().map(r);
 }
 
-/*
 const images = importAll(
   require.context("../../assets", false, /\.(png|jpe?g|svg)$/)
 );
